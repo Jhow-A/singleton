@@ -6,7 +6,7 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
-            var ClasseNormal = new ClasseNormal { variavelClasseNormal = 26};
+            var ClasseNormal = new ClasseNormal { variavelClasseNormal = new Random().Next()};
             Console.WriteLine("Uso de classe Normal: " + ClasseNormal.variavelClasseNormal);
 
             string valorRetornado = ClasseEstatica.ExibirValor();

@@ -1,28 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Singleton
+﻿namespace Singleton
 {
     class ClasseNormal
     {
         public int variavelClasseNormal;
-    }
-
-    class ClasseSingleton
-    {
-        static ClasseSingleton _instancia;
-
-        public static ClasseSingleton Instancia
-        {
-            get { return _instancia ?? (_instancia = new ClasseSingleton()); }
-        }
-
-        private ClasseSingleton() { }
-
-        public string Mensagem { get; set; }
     }
 
     static public class ClasseEstatica
@@ -41,5 +21,18 @@ namespace Singleton
         }
 
         public static string Mensagem { get; set; }
+    }
+    class ClasseSingleton
+    {
+        static ClasseSingleton _instancia;
+
+        public static ClasseSingleton Instancia
+        {
+            get { return _instancia ?? (_instancia = new ClasseSingleton()); }
+        }
+
+        private ClasseSingleton() { }
+
+        public string Mensagem { get; set; }
     }
 }

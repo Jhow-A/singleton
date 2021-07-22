@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{139CE4BE-8382-462E-9111-65659BF4596F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonSingleThread", "SingletonSingleThread\SingletonSingleThread.csproj", "{263CD17D-6FD5-4DCB-AF59-489EF3FA316A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonMultiThread", "SingletonMultiThread\SingletonMultiThread.csproj", "{A6FF9871-E010-48DB-B273-916F713EDD59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{139CE4BE-8382-462E-9111-65659BF4596F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{139CE4BE-8382-462E-9111-65659BF4596F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{139CE4BE-8382-462E-9111-65659BF4596F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263CD17D-6FD5-4DCB-AF59-489EF3FA316A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263CD17D-6FD5-4DCB-AF59-489EF3FA316A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263CD17D-6FD5-4DCB-AF59-489EF3FA316A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263CD17D-6FD5-4DCB-AF59-489EF3FA316A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FF9871-E010-48DB-B273-916F713EDD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FF9871-E010-48DB-B273-916F713EDD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FF9871-E010-48DB-B273-916F713EDD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FF9871-E010-48DB-B273-916F713EDD59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
